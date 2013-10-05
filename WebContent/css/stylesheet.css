@@ -1,0 +1,149 @@
+@CHARSET "UTF-8";
+
+.container {
+	width: 96%;
+	margin: auto;
+	border: 2px solid red;
+	padding: 5px;
+}
+
+.header {
+	border: 2px solid #000000;
+	padding: 5px;
+}
+
+.headerCnt {
+	font-size: 2.2em;
+	font-weight: bold;
+	margin-top: 15px;
+	font-family: amaranth, serif;
+}
+
+.contentwrapper {
+	overflow: hidden;
+	border: 2px solid yellow;
+	margin-top: 5px;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.addresslist {
+	width: 72%;
+	float: left;
+	padding: 5px;
+	border: 1px solid pink;
+	height: 442px;
+	overflow: auto;
+}
+
+.addressupdate {
+	border: 1px solid green;
+	width: 25%;
+	float: right;
+	padding: 5px;
+	height: 442px; 
+	overflow : auto;
+}
+
+.addresssearch {
+	margin-bottom: 5px
+}
+
+.srchbox {
+	border-radius: 5px;
+	padding: 4px;
+	border: 1px solid #ccc;
+}
+
+.srchbtn {
+	width: 10%;
+	padding: 4px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.footer {
+	border: 2px solid #000000;
+}
+
+.addcntct {
+	clear: right;
+	width: 76%;
+	display: block;
+	text-decoration: none;
+	border: 1px solid grey;
+	border-radius: 5px 5px 5px 5px;
+	margin: 10px auto 10px auto;
+	padding: 8px;
+	text-align: center;
+	background: none repeat scroll 0% 0% blue;
+	color: rgb(255, 255, 255);
+	margin-top: 50px
+}
+
+.upcntct {
+	clear: right;
+	width: 76%;
+	display: block;
+	text-decoration: none;
+	border: 1px solid grey;
+	border-radius: 5px 5px 5px 5px;
+	margin: 10px auto 10px auto;
+	padding: 8px;
+	text-align: center;
+	background: none repeat scroll 0% 0% blue;
+	color: rgb(255, 255, 255);
+}
+
+.addcnt {
+	border: 2px solid pink;
+	width: 72%;
+	float: left;
+	padding: 5px;
+	padding-bottom: 380px;
+}
+
+.tablecontacts {
+	width: 100%;
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+}
+
+.tablecontacts tr td {
+	border-bottom: 1px solid blue;
+	padding: 5px 2px;
+}
+
+.tablecontacts th {
+	padding: 5px 2px;
+	text-align: left;
+}
+
+.tablerow {
+	
+}
+
+.tableheading {
+	background: blue;
+	color: #fff;
+}
+
+.tabledata {
+	
+}
+
+.conctactformstyle label {
+	padding: 10px auto;
+	width: 100px;
+	display: inline-block;
+}
+
+.savebutton {
+	border-radius: 5px 5px 5px 5px;
+	width: 150px
+}
+
+.cancelbutton {
+	border-radius: 5px 5px 5px 5px;
+	width: 150px
+}

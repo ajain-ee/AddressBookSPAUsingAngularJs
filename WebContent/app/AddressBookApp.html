@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html data-ng-app="AddressBookApp">
+<head>
+<meta charset="UTF-8">
+<title>Personal Address Book</title>
+<link rel="stylesheet" href="../css/stylesheet.css" type="text/css" />
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="../lib/angular.min.js"></script>
+
+<!-- App libs -->
+<script src="app.js"></script>
+<script src="controllers/controller.js"></script>
+<script src="services/contactService.js"></script>
+
+
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="headerCnt">Your Free Online Address Book</div>
+		</div>
+		<div class="contentwrapper">
+			<div class=addresssearch>
+				<label>Search By Name: </label>
+				<input class="srchbox" type="text" data-ng-model="srchcontact" >
+			</div>
+			<div data-ng-view></div>
+			<div class="addressupdate">
+				<a class="addcntct" href="#/addContact">Add New Contact</a>				
+			</div>
+		</div>
+		<div class="footer">This is footer</div>
+	</div>
+</body>
+</html>

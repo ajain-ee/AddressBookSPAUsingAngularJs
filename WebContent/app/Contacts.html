@@ -1,0 +1,24 @@
+<div class="addresslist">
+	<table class="tablecontacts" cellpadding="0" cellspacing="0">
+		<tr class="tableheading">
+			<th>S No:</th>
+			<th>Name</th>
+			<th>Address1</th>
+			<th>Address2</th>
+			<th>City</th>
+			<th>Mobile</th>
+			<th>Edit</th>
+			<th>Delete</th>
+		</tr>
+		<tr data-ng-repeat="contact in contacts | filter:srchcontact">
+			<td>{{ $index + 1}}</td>
+			<td>{{ contact.name}}</td>
+			<td>{{ contact.address1 }}</td>
+			<td>{{ contact.address2 }}</td>
+			<td>{{ contact.city }}</td>
+			<td>{{ contact.mobile }}</td>
+			<td><a href="#/editContacts/{{contact.id}}"><img src="../images/edit24.png"></a></td>
+			<td><img src="../images/erase.png" data-ng-click="deleteContact(contact)"></td>
+		</tr>
+	</table>
+</div>
